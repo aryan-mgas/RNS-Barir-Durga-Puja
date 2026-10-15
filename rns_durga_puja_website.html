@@ -1,0 +1,1670 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#100b08">
+  <meta name="description" content="Celebrating 184 years of R N S বাড়ির দুর্গাপূজা, a family tradition of devotion and togetherness.">
+  <title>R N S বাড়ির দুর্গাপূজা | 184 Years of Tradition</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Noto+Serif+Bengali:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --black: #100b08;
+      --black-light: #1d100c;
+      --maroon: #68121c;
+      --maroon-light: #8c1c28;
+      --gold: #c8a35d;
+      --gold-light: #f0d99a;
+      --cream: #f6ecd7;
+      --muted: #b9a78b;
+      --serif: "Cormorant Garamond", Georgia, serif;
+      --bengali: "Noto Serif Bengali", serif;
+      --page: 1240px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: 85px;
+    }
+
+    body {
+      background: var(--black);
+      color: var(--cream);
+      font-family: var(--serif);
+      font-size: 18px;
+      line-height: 1.7;
+      overflow-x: hidden;
+    }
+
+    body.no-scroll {
+      overflow: hidden;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    img, video {
+      display: block;
+      max-width: 100%;
+    }
+
+    button {
+      font: inherit;
+    }
+
+    .bn {
+      font-family: var(--bengali);
+    }
+
+    .container {
+      width: min(100% - 48px, var(--page));
+      margin-inline: auto;
+    }
+
+    .section {
+      padding: 100px 0;
+    }
+
+    .section-heading {
+      text-align: center;
+      margin-bottom: 48px;
+    }
+
+    .eyebrow {
+      color: var(--gold);
+      text-transform: uppercase;
+      letter-spacing: .24em;
+      font-size: 12px;
+      margin-bottom: 12px;
+    }
+
+    .section-heading h2 {
+      color: var(--gold-light);
+      font-size: clamp(35px, 5vw, 54px);
+      line-height: 1.2;
+      font-weight: 500;
+    }
+
+    .section-heading p {
+      max-width: 680px;
+      margin: 16px auto 0;
+      color: var(--muted);
+    }
+
+    .ornament {
+      color: var(--gold);
+      letter-spacing: 8px;
+      margin-top: 18px;
+    }
+
+    /* NAVIGATION */
+
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(12, 8, 6, .96);
+      border-bottom: 1px solid rgba(200, 163, 93, .35);
+      backdrop-filter: blur(14px);
+    }
+
+    .nav {
+      max-width: var(--page);
+      min-height: 78px;
+      margin: auto;
+      padding: 12px 28px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+    }
+
+    .brand {
+      display: flex;
+      flex-direction: column;
+      line-height: 1.1;
+      color: var(--gold-light);
+    }
+
+    .brand-mark {
+      font-size: 29px;
+      letter-spacing: .2em;
+      font-weight: 700;
+    }
+
+    .brand-name {
+      font: 13px/1.8 var(--bengali);
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+    }
+
+    .nav-links a {
+      color: var(--cream);
+      font-size: 17px;
+      transition: color .25s;
+    }
+
+    .nav-links a:hover {
+      color: var(--gold-light);
+    }
+
+    .menu-toggle {
+      display: none;
+      width: 43px;
+      height: 43px;
+      border: 1px solid var(--gold);
+      border-radius: 50%;
+      color: var(--gold-light);
+      background: transparent;
+      cursor: pointer;
+      font-size: 22px;
+    }
+
+    /* HERO */
+
+    .hero {
+      position: relative;
+      min-height: min(720px, calc(100svh - 78px));
+      display: flex;
+      align-items: center;
+      isolation: isolate;
+      overflow: hidden;
+      background: var(--black-light);
+    }
+
+    .hero-media {
+      position: absolute;
+      inset: 0;
+      z-index: -2;
+    }
+
+    .hero-media img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center 40%;
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      z-index: -1;
+      background:
+        linear-gradient(90deg,
+          rgba(12, 6, 4, .93),
+          rgba(12, 6, 4, .7) 40%,
+          rgba(12, 6, 4, .15) 100%),
+        linear-gradient(0deg, rgba(12, 6, 4, .55), transparent 45%);
+    }
+
+    .hero-content {
+      width: min(100% - 48px, var(--page));
+      margin: auto;
+      padding: 95px 0;
+    }
+
+    .hero h1 {
+      max-width: 760px;
+      color: #fff0c2;
+      font: 600 clamp(38px, 6vw, 76px)/1.4 var(--bengali);
+      text-shadow: 0 4px 24px #000;
+    }
+
+    .hero-title-english {
+      margin-top: 12px;
+      font-size: clamp(25px, 3vw, 38px);
+      color: var(--cream);
+    }
+
+    .hero-description {
+      max-width: 560px;
+      color: #e7d7bd;
+      margin-top: 20px;
+      font-size: 19px;
+    }
+
+    .heritage-label {
+      display: inline-block;
+      border: 1px solid var(--gold);
+      color: var(--gold-light);
+      padding: 8px 18px;
+      margin-bottom: 22px;
+      letter-spacing: .15em;
+      font-size: 13px;
+    }
+
+    .gold-button {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 13px 27px;
+      border: 1px solid var(--gold);
+      color: var(--black);
+      background: var(--gold-light);
+      transition: .25s;
+    }
+
+    .gold-button:hover {
+      background: transparent;
+      color: var(--gold-light);
+    }
+
+    /* VIDEO SLIDESHOW */
+
+    .video-section {
+      background:
+        radial-gradient(ellipse at top, #30130e 0%, #160c08 50%, #0b0806 100%);
+      border-top: 1px solid rgba(200, 163, 93, .2);
+      border-bottom: 1px solid rgba(200, 163, 93, .2);
+    }
+
+    .video-section .section-heading {
+      margin-bottom: 35px;
+    }
+
+    .video-stage {
+      position: relative;
+      width: 100%;
+      height: min(76svh, 780px);
+      min-height: 420px;
+      overflow: hidden;
+      background: #080605;
+      border-top: 1px solid rgba(200, 163, 93, .5);
+      border-bottom: 1px solid rgba(200, 163, 93, .5);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      touch-action: pan-y;
+      cursor: grab;
+    }
+
+    .video-stage.dragging {
+      cursor: grabbing;
+    }
+
+    /* BLURRED BACKGROUND FOR PORTRAIT VIDEOS */
+
+    .video-backdrop {
+      position: absolute;
+      inset: -35px;
+      width: calc(100% + 70px);
+      height: calc(100% + 70px);
+      object-fit: cover;
+      filter: blur(30px) brightness(.25);
+      opacity: .75;
+      pointer-events: none;
+    }
+
+    .video-stage::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(
+        90deg,
+        rgba(10, 6, 4, .5),
+        transparent 30%,
+        transparent 70%,
+        rgba(10, 6, 4, .5)
+      );
+      pointer-events: none;
+    }
+
+    .main-video {
+      position: relative;
+      z-index: 1;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      object-position: center center;
+      background: transparent;
+    }
+
+    /* LEFT AND RIGHT VIDEO ARROWS */
+
+    .video-arrow {
+      position: absolute;
+      z-index: 10;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 54px;
+      height: 54px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid rgba(240, 217, 154, .8);
+      border-radius: 50%;
+      background: rgba(12, 8, 6, .72);
+      color: #f0d99a;
+      font-family: Arial, sans-serif;
+      font-size: 32px;
+      line-height: 1;
+      cursor: pointer;
+      transition: background .25s, color .25s, transform .25s;
+      user-select: none;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    .video-arrow:hover {
+      background: #f0d99a;
+      color: #100b08;
+      transform: translateY(-50%) scale(1.08);
+    }
+
+    .video-arrow-left {
+      left: 20px;
+    }
+
+    .video-arrow-right {
+      right: 20px;
+    }
+
+    .video-controls {
+      position: absolute;
+      z-index: 5;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      padding: 42px 24px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 15px;
+      background: linear-gradient(transparent, rgba(0, 0, 0, .88));
+    }
+
+    .video-control-group {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .video-control {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 43px;
+      height: 43px;
+      padding: 0 13px;
+      border: 1px solid rgba(240, 217, 154, .75);
+      border-radius: 50px;
+      color: var(--gold-light);
+      background: rgba(15, 9, 6, .75);
+      cursor: pointer;
+      transition: .25s;
+    }
+
+    .video-control:hover {
+      background: var(--gold-light);
+      color: var(--black);
+    }
+
+    .video-counter {
+      color: #fff0c2;
+      font-size: 15px;
+      white-space: nowrap;
+    }
+
+    .video-progress {
+      height: 3px;
+      background: rgba(255, 255, 255, .2);
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+
+    .video-progress-bar {
+      width: 0;
+      height: 100%;
+      background: var(--gold-light);
+      transition: width .15s linear;
+    }
+
+    .video-caption {
+      text-align: center;
+      color: var(--muted);
+      margin-top: 25px;
+      font-size: 17px;
+    }
+
+    .video-dots {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      margin-top: 25px;
+    }
+
+    .video-dot {
+      width: 9px;
+      height: 9px;
+      border-radius: 50%;
+      border: 1px solid var(--gold);
+      background: transparent;
+      cursor: pointer;
+      transition: .25s;
+    }
+
+    .video-dot.active {
+      width: 28px;
+      border-radius: 10px;
+      background: var(--gold-light);
+    }
+
+    /* HERITAGE */
+
+    .heritage {
+      background: var(--cream);
+      color: #34251a;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .heritage .section-heading h2 {
+      color: #5d1720;
+    }
+
+    .heritage .section-heading p {
+      color: #725e49;
+    }
+
+    .heritage-content {
+      max-width: 850px;
+      margin: auto;
+      text-align: center;
+    }
+
+    .heritage-content p {
+      font-size: 20px;
+      line-height: 1.95;
+      margin-bottom: 20px;
+    }
+
+    .heritage-content .bn {
+      font-size: 19px;
+    }
+
+    .heritage-highlight {
+      margin-top: 36px;
+      padding: 28px;
+      border: 1px solid rgba(104, 18, 28, .35);
+      color: #68121c;
+      font-size: 25px;
+    }
+
+    /* GALLERY */
+
+    .gallery-section {
+      background: linear-gradient(180deg, #100b08, #1c0d0a);
+    }
+
+    .gallery-filters {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 35px;
+    }
+
+    .filter-button {
+      border: 1px solid rgba(200, 163, 93, .6);
+      color: var(--gold-light);
+      background: transparent;
+      padding: 9px 19px;
+      cursor: pointer;
+      transition: .25s;
+    }
+
+    .filter-button:hover,
+    .filter-button.active {
+      color: var(--black);
+      background: var(--gold-light);
+    }
+
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 20px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .gallery-card {
+      position: relative;
+      overflow: hidden;
+      background: #20110c;
+      border: 1px solid rgba(200, 163, 93, .3);
+      cursor: pointer;
+    }
+
+    .gallery-card img {
+      width: 100%;
+      aspect-ratio: 4 / 5;
+      object-fit: cover;
+      transition: transform .6s;
+    }
+
+    .gallery-card:hover img {
+      transform: scale(1.06);
+    }
+
+    .gallery-card::after {
+      content: "";
+      position: absolute;
+      inset: 35% 0 0;
+      background: linear-gradient(transparent, rgba(0, 0, 0, .9));
+      pointer-events: none;
+    }
+
+    .gallery-caption {
+      position: absolute;
+      z-index: 1;
+      left: 20px;
+      right: 20px;
+      bottom: 18px;
+      color: var(--gold-light);
+      font-size: 21px;
+    }
+
+    .gallery-card.hidden {
+      display: none;
+    }
+
+    /* SOCIAL SECTION */
+
+    .social-section {
+      background: #f0e3c9;
+      color: #38251b;
+    }
+
+    .social-card {
+      max-width: 850px;
+      margin: auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      border: 1px solid rgba(104, 18, 28, .35);
+      background: #f8efde;
+    }
+
+    .social-image {
+      min-height: 320px;
+      overflow: hidden;
+    }
+
+    .social-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .social-copy {
+      padding: 38px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+    }
+
+    .social-copy h3 {
+      color: #68121c;
+      font-size: 32px;
+      line-height: 1.25;
+    }
+
+    .social-copy p {
+      margin-top: 15px;
+      color: #725e49;
+    }
+
+    .facebook-button {
+      display: inline-block;
+      margin-top: 24px;
+      background: #68121c;
+      color: #fff0c2;
+      padding: 12px 22px;
+      transition: .25s;
+    }
+
+    .facebook-button:hover {
+      background: #8c1c28;
+    }
+
+    /* FOOTER */
+
+    .site-footer {
+      padding: 45px 24px 25px;
+      text-align: center;
+      background: #0b0705;
+      border-top: 1px solid rgba(200, 163, 93, .4);
+    }
+
+    .footer-brand {
+      font-size: 28px;
+      color: var(--gold-light);
+      letter-spacing: .08em;
+    }
+
+    .footer-bengali {
+      margin-top: 4px;
+      font-size: 17px;
+      color: var(--gold);
+    }
+
+    .footer-links {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 25px;
+      margin: 20px 0;
+    }
+
+    .footer-links a {
+      color: var(--muted);
+    }
+
+    .footer-links a:hover {
+      color: var(--gold-light);
+    }
+
+    .copyright {
+      color: #8d7961;
+      font-size: 14px;
+      padding-top: 20px;
+      border-top: 1px solid rgba(200, 163, 93, .15);
+    }
+
+    /* LIGHTBOX */
+
+    .lightbox {
+      position: fixed;
+      inset: 0;
+      z-index: 500;
+      background: rgba(0, 0, 0, .95);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 30px;
+    }
+
+    .lightbox.open {
+      display: flex;
+    }
+
+    .lightbox img {
+      max-width: 92vw;
+      max-height: 86svh;
+      object-fit: contain;
+    }
+
+    .lightbox-close {
+      position: absolute;
+      top: 18px;
+      right: 24px;
+      border: 1px solid var(--gold);
+      border-radius: 50%;
+      width: 45px;
+      height: 45px;
+      background: var(--black);
+      color: var(--gold-light);
+      font-size: 26px;
+      cursor: pointer;
+    }
+
+    /* RESPONSIVE DESIGN */
+
+    @media (min-width: 1500px) {
+      .video-stage {
+        height: 820px;
+      }
+    }
+
+    @media (max-width: 900px) {
+      .nav-links {
+        gap: 18px;
+      }
+
+      .gallery-grid {
+        gap: 14px;
+      }
+
+      .social-card {
+        grid-template-columns: 1fr;
+      }
+
+      .social-image {
+        min-height: 280px;
+        max-height: 420px;
+      }
+
+      .hero::before {
+        background: linear-gradient(
+          90deg,
+          rgba(12, 6, 4, .88),
+          rgba(12, 6, 4, .45)
+        );
+      }
+    }
+
+    @media (max-width: 650px) {
+      html {
+        scroll-padding-top: 70px;
+      }
+
+      .container {
+        width: min(100% - 32px, var(--page));
+      }
+
+      .section {
+        padding: 70px 0;
+      }
+
+      .nav {
+        min-height: 70px;
+        padding: 10px 16px;
+      }
+
+      .brand-mark {
+        font-size: 24px;
+      }
+
+      .brand-name {
+        font-size: 11px;
+      }
+
+      .menu-toggle {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .nav-links {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        padding: 18px 24px 24px;
+        background: rgba(12, 8, 6, .98);
+        border-bottom: 1px solid var(--gold);
+        flex-direction: column;
+        align-items: stretch;
+        gap: 5px;
+      }
+
+      .nav-links.open {
+        display: flex;
+      }
+
+      .nav-links a {
+        padding: 10px 0;
+      }
+
+      .hero {
+        min-height: 670px;
+        min-height: min(780px, calc(100svh - 70px));
+      }
+
+      .hero-media img {
+        object-position: 58% center;
+      }
+
+      .hero::before {
+        background:
+          linear-gradient(0deg, rgba(12, 6, 4, .93), rgba(12, 6, 4, .24)),
+          linear-gradient(90deg, rgba(12, 6, 4, .5), transparent);
+      }
+
+      .hero-content {
+        width: min(100% - 32px, var(--page));
+        padding: 65px 0;
+        align-self: flex-end;
+      }
+
+      .hero h1 {
+        font-size: clamp(34px, 9vw, 48px);
+      }
+
+      .hero-description {
+        font-size: 17px;
+      }
+
+      /* PORTRAIT VIDEO: SHOW COMPLETE VIDEO */
+
+      .video-stage {
+        height: 72svh;
+        min-height: 400px;
+        max-height: 780px;
+      }
+
+      .main-video {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
+
+      .video-arrow {
+        width: 42px;
+        height: 42px;
+        font-size: 25px;
+        background: rgba(12, 8, 6, .8);
+      }
+
+      .video-arrow-left {
+        left: 10px;
+      }
+
+      .video-arrow-right {
+        right: 10px;
+      }
+
+      .video-controls {
+        padding: 40px 12px 14px;
+        gap: 8px;
+      }
+
+      .video-control-group {
+        gap: 7px;
+      }
+
+      .video-control {
+        min-width: 39px;
+        height: 39px;
+        padding: 0 10px;
+        font-size: 14px;
+      }
+
+      .video-counter {
+        font-size: 13px;
+      }
+
+      .gallery-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+      }
+
+      .gallery-caption {
+        left: 10px;
+        right: 10px;
+        bottom: 10px;
+        font-size: 17px;
+      }
+
+      .heritage-content p {
+        font-size: 18px;
+      }
+
+      .heritage-highlight {
+        font-size: 21px;
+        padding: 20px;
+      }
+
+      .social-copy {
+        padding: 25px;
+      }
+
+      .social-copy h3 {
+        font-size: 28px;
+      }
+
+      .footer-links {
+        gap: 14px;
+      }
+
+      .lightbox {
+        padding: 15px;
+      }
+    }
+
+    @media (max-width: 380px) {
+      .gallery-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .video-control {
+        min-width: 35px;
+        height: 35px;
+        padding: 0 8px;
+      }
+
+      .video-arrow-left {
+        left: 7px;
+      }
+
+      .video-arrow-right {
+        right: 7px;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *,
+      *::before,
+      *::after {
+        scroll-behavior: auto !important;
+        animation-duration: .01ms !important;
+        transition-duration: .01ms !important;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- NAVIGATION -->
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="R N S Durga Puja home">
+        <span class="brand-mark">R N S</span>
+        <span class="brand-name bn">বাড়ির দুর্গাপূজা</span>
+      </a>
+
+      <button
+        class="menu-toggle"
+        id="menuToggle"
+        aria-label="Toggle navigation"
+        aria-expanded="false"
+        type="button"
+      >☰</button>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#videos">Videos</a>
+        <a href="#heritage">Our Heritage</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#social">Facebook</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="hero-media">
+        <img
+          src="images/hero-durga.jpg"
+          alt="Durga Puja at R N S family home"
+          fetchpriority="high"
+        >
+      </div>
+
+      <div class="hero-content">
+        <div class="heritage-label">EST. 184 YEARS OF TRADITION</div>
+
+        <h1 class="bn">শুভ শারদীয়া</h1>
+
+        <p class="hero-title-english">
+          R N S বাড়ির দুর্গাপূজা
+        </p>
+
+        <p class="hero-description">
+          A legacy of devotion, a celebration of togetherness,
+          and a timeless family tradition passed down through generations.
+        </p>
+
+        <a class="gold-button" href="#videos">Experience Our Puja ↓</a>
+      </div>
+    </section>
+
+    <!-- VIDEO SLIDESHOW -->
+    <section class="section video-section" id="videos">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Moments of Devotion</p>
+          <h2>Our Puja in Motion</h2>
+          <p class="bn">
+            ঐতিহ্য, ভক্তি আর আনন্দের কিছু বিশেষ মুহূর্ত
+          </p>
+          <div class="ornament">✦ ❈ ✦</div>
+        </div>
+      </div>
+
+      <div class="video-stage" id="videoStage">
+
+        <!-- Blurred backdrop for portrait videos -->
+        <video
+          class="video-backdrop"
+          id="videoBackdrop"
+          muted
+          playsinline
+          aria-hidden="true"
+        ></video>
+
+        <!-- Main video -->
+        <video
+          class="main-video"
+          id="mainVideo"
+          autoplay
+          muted
+          playsinline
+          preload="metadata"
+          aria-label="R N S Durga Puja video slideshow"
+        ></video>
+
+        <!-- LEFT ARROW -->
+        <button
+          class="video-arrow video-arrow-left"
+          id="videoArrowLeft"
+          type="button"
+          aria-label="Previous video"
+          title="Previous video"
+        >‹</button>
+
+        <!-- RIGHT ARROW -->
+        <button
+          class="video-arrow video-arrow-right"
+          id="videoArrowRight"
+          type="button"
+          aria-label="Next video"
+          title="Next video"
+        >›</button>
+
+        <!-- VIDEO CONTROLS -->
+        <div class="video-controls">
+          <div class="video-control-group">
+            <button class="video-control" id="previousVideo" type="button" aria-label="Previous video">⏮</button>
+            <button class="video-control" id="playPause" type="button" aria-label="Pause slideshow">Ⅱ</button>
+            <button class="video-control" id="nextVideo" type="button" aria-label="Next video">⏭</button>
+          </div>
+
+          <div class="video-control-group">
+            <span class="video-counter" id="videoCounter">01 / 04</span>
+            <button class="video-control" id="soundToggle" type="button" aria-label="Enable sound">🔇</button>
+            <button class="video-control" id="fullscreenToggle" type="button" aria-label="Enter fullscreen">⛶</button>
+          </div>
+        </div>
+
+        <!-- PROGRESS BAR -->
+        <div class="video-progress">
+          <div class="video-progress-bar" id="videoProgressBar"></div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="video-dots" id="videoDots" aria-label="Choose video"></div>
+        <p class="video-caption">
+          Celebrating generations of faith, family and tradition.
+        </p>
+      </div>
+    </section>
+
+    <!-- HERITAGE -->
+    <section class="section heritage" id="heritage">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Our Story · Our Tradition</p>
+          <h2 class="bn">আমাদের ঐতিহ্য</h2>
+          <p>184 years of faith, family and celebration.</p>
+          <div class="ornament">✦ ❈ ✦</div>
+        </div>
+
+        <div class="heritage-content">
+          <p>
+            Some traditions are more than celebrations.
+            They are memories, blessings and bonds that connect
+            one generation to the next.
+          </p>
+
+          <p class="bn">
+            আমাদের বাড়ির দুর্গাপূজা শুধু একটি উৎসব নয়,
+            এটি আমাদের পরিবারের আবেগ, বিশ্বাস ও ঐতিহ্যের
+            এক অবিচ্ছেদ্য অংশ। প্রজন্মের পর প্রজন্ম ধরে
+            মা দুর্গার আরাধনায় একত্রিত হয় আমাদের পরিবার।
+          </p>
+
+          <p>
+            Every year, as the sound of the dhaak fills the air
+            and the fragrance of shiuli flowers welcomes autumn,
+            our home comes alive with devotion and joy.
+          </p>
+
+          <p class="bn">
+            ঢাকের শব্দ, শিউলি ফুলের গন্ধ আর মায়ের আগমনে
+            আমাদের উঠোন ভরে ওঠে আনন্দে। এই পুজো আমাদের
+            শিকড়ের সঙ্গে যুক্ত রাখে, ফিরিয়ে আনে পুরোনো
+            স্মৃতি আর তৈরি করে নতুন গল্প।
+          </p>
+
+          <div class="heritage-highlight">
+            <div class="bn">১৮৪ বছরের ঐতিহ্য · চিরন্তন ভক্তি</div>
+            <div>184 Years of an Unbroken Family Tradition</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY: ONLY FOUR IMAGES -->
+    <section class="section gallery-section" id="gallery">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">A Collection of Memories</p>
+          <h2>Our Puja Gallery</h2>
+          <p>
+            A glimpse into the rituals, decorations and cherished
+            moments of our family Durga Puja.
+          </p>
+          <div class="ornament">✦ ❈ ✦</div>
+        </div>
+
+        <div class="gallery-filters" aria-label="Filter gallery">
+          <button class="filter-button active" type="button" data-filter="all">All Moments</button>
+          <button class="filter-button" type="button" data-filter="deity">Maa Durga</button>
+          <button class="filter-button" type="button" data-filter="rituals">Rituals</button>
+          
+        </div>
+
+        <div class="gallery-grid" id="galleryGrid">
+
+          <article class="gallery-card" data-category="deity">
+            <img src="images/gallery-01.jpg" alt="Maa Durga at the family puja" loading="lazy">
+            <div class="gallery-caption bn">Maa Durga</div>
+          </article>
+
+          <article class="gallery-card" data-category="deity">
+            <img src="images/gallery-02.jpg" alt="Traditional Durga Puja rituals" loading="lazy">
+            <div class="gallery-caption bn">Maa</div>
+          </article>
+
+          <article class="gallery-card" data-category="rituals">
+            <img src="images/gallery-03.jpg" alt="Traditional puja decorations" loading="lazy">
+            <div class="gallery-caption bn">Rituals</div>
+          </article>
+
+          <article class="gallery-card" data-category="rituals">
+            <img src="images/image.png" alt="Traditional puja decorations" loading="lazy">
+            <div class="gallery-caption bn">Rituals</div>
+          </article>
+
+          <article class="gallery-card" data-category="rituals">
+            <img src="images/gallery-04.jpg" alt="A special view of Maa Durga" loading="lazy">
+            <div class="gallery-caption">dhaak</div>
+          </article>
+<article class="gallery-card" data-category="rituals">
+            <img src="images/image2.png" alt="Traditional puja decorations" loading="lazy">
+            <div class="gallery-caption bn">Rituals</div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- FACEBOOK -->
+    <section class="section social-section" id="social">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Stay Connected</p>
+          <h2>Celebrate With Us</h2>
+          <p>
+            Follow our family's celebrations and share the joy
+            of this beautiful tradition.
+          </p>
+          <div class="ornament">✦ ❈ ✦</div>
+        </div>
+
+        <div class="social-card">
+          <div class="social-image">
+            <img
+              src="images/gallery-06.jpg"
+              alt="R N S family Durga Puja"
+              loading="lazy"
+            >
+          </div>
+
+          <div class="social-copy">
+            <p class="eyebrow">R N S Family Puja</p>
+            <h3 class="bn">মায়ের আশীর্বাদ সবার উপর বর্ষিত হোক</h3>
+
+            <p>
+              Join our community and stay connected with the
+              moments, memories and celebrations of our family puja.
+            </p>
+
+            <a
+              class="facebook-button"
+              href="https://www.facebook.com/share/18W9yLaFzr/?mibextid=wwXIfr"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Visit Our Facebook ↗
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-brand">R N S</div>
+    <div class="footer-bengali bn">বাড়ির দুর্গাপূজা</div>
+
+    <div class="footer-links">
+      <a href="#home">Home</a>
+      <a href="#videos">Videos</a>
+      <a href="#heritage">Heritage</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#social">Facebook</a>
+    </div>
+
+    <p class="copyright">
+      © <span id="copyrightYear"></span>
+      R N S বাড়ির দুর্গাপূজা. All Rights Reserved.
+      <br>
+      Preserving a legacy of devotion for generations.
+    </p>
+  </footer>
+
+  <!-- IMAGE LIGHTBOX -->
+  <div
+    class="lightbox"
+    id="lightbox"
+    role="dialog"
+    aria-modal="true"
+    aria-label="Expanded gallery image"
+  >
+    <button class="lightbox-close" id="lightboxClose" type="button" aria-label="Close image">×</button>
+    <img id="lightboxImage" src="" alt="">
+  </div>
+
+  <script>
+    /* =========================================
+       VIDEO SLIDESHOW
+       ========================================= */
+
+    const videoFiles = [
+      "videos/puja-01.mp4",
+      "videos/puja-02.mp4",
+      "videos/puja-03.mp4",
+      "videos/puja-04.mp4"
+      
+    ];
+
+    const mainVideo = document.getElementById("mainVideo");
+    const videoBackdrop = document.getElementById("videoBackdrop");
+    const videoCounter = document.getElementById("videoCounter");
+    const videoProgressBar = document.getElementById("videoProgressBar");
+    const videoDots = document.getElementById("videoDots");
+    const playPauseButton = document.getElementById("playPause");
+    const soundToggleButton = document.getElementById("soundToggle");
+    const fullscreenButton = document.getElementById("fullscreenToggle");
+    const videoStage = document.getElementById("videoStage");
+
+    let currentVideoIndex = 0;
+    let slideshowPaused = false;
+    let soundEnabled = false;
+
+    /* Create one navigation dot for each video */
+    videoFiles.forEach((file, index) => {
+      const dot = document.createElement("button");
+
+      dot.className = "video-dot";
+      dot.type = "button";
+      dot.setAttribute("aria-label", `Play video ${index + 1}`);
+
+      dot.addEventListener("click", () => {
+        loadVideo(index);
+      });
+
+      videoDots.appendChild(dot);
+    });
+
+    function updateVideoInterface() {
+      videoCounter.textContent =
+        `${String(currentVideoIndex + 1).padStart(2, "0")} / ${String(videoFiles.length).padStart(2, "0")}`;
+
+      [...videoDots.children].forEach((dot, index) => {
+        dot.classList.toggle("active", index === currentVideoIndex);
+
+        dot.setAttribute(
+          "aria-current",
+          index === currentVideoIndex ? "true" : "false"
+        );
+      });
+    }
+
+    function loadVideo(index) {
+      currentVideoIndex =
+        (index + videoFiles.length) % videoFiles.length;
+
+      const source = videoFiles[currentVideoIndex];
+
+      mainVideo.src = source;
+      videoBackdrop.src = source;
+
+      mainVideo.muted = !soundEnabled;
+
+      mainVideo.load();
+      videoBackdrop.load();
+
+      videoProgressBar.style.width = "0%";
+      updateVideoInterface();
+
+      if (!slideshowPaused) {
+        const playPromise = mainVideo.play();
+
+        if (playPromise && typeof playPromise.catch === "function") {
+          playPromise.catch(() => {
+            playPauseButton.textContent = "▶";
+          });
+        }
+      }
+    }
+
+    /* Keep the background video muted and synchronized */
+    mainVideo.addEventListener("play", () => {
+      playPauseButton.textContent = "Ⅱ";
+
+      if (videoBackdrop.readyState >= 2) {
+        videoBackdrop.currentTime = mainVideo.currentTime;
+        videoBackdrop.play().catch(() => {});
+      }
+    });
+
+    mainVideo.addEventListener("pause", () => {
+      playPauseButton.textContent = "▶";
+      videoBackdrop.pause();
+    });
+
+    mainVideo.addEventListener("loadedmetadata", () => {
+      videoBackdrop.currentTime = 0;
+
+      if (!slideshowPaused) {
+        mainVideo.play().catch(() => {});
+      }
+    });
+
+    mainVideo.addEventListener("timeupdate", () => {
+      if (mainVideo.duration && Number.isFinite(mainVideo.duration)) {
+        const progress =
+          (mainVideo.currentTime / mainVideo.duration) * 100;
+
+        videoProgressBar.style.width = `${progress}%`;
+      }
+
+      /* Keep the blurred background reasonably synchronized */
+      if (Math.abs(videoBackdrop.currentTime - mainVideo.currentTime) > 0.7) {
+        try {
+          videoBackdrop.currentTime = mainVideo.currentTime;
+        } catch (error) {
+          /* Ignore timing differences while media loads. */
+        }
+      }
+    });
+
+    /* Automatically advance to the next video */
+    mainVideo.addEventListener("ended", () => {
+      loadVideo(currentVideoIndex + 1);
+    });
+
+    /* Existing previous/next controls */
+    document.getElementById("previousVideo").addEventListener("click", () => {
+      loadVideo(currentVideoIndex - 1);
+    });
+
+    document.getElementById("nextVideo").addEventListener("click", () => {
+      loadVideo(currentVideoIndex + 1);
+    });
+
+    /* NEW LEFT AND RIGHT ARROWS */
+    document.getElementById("videoArrowLeft").addEventListener("click", () => {
+      loadVideo(currentVideoIndex - 1);
+    });
+
+    document.getElementById("videoArrowRight").addEventListener("click", () => {
+      loadVideo(currentVideoIndex + 1);
+    });
+
+    /* PLAY / PAUSE */
+    playPauseButton.addEventListener("click", () => {
+      if (mainVideo.paused) {
+        slideshowPaused = false;
+
+        mainVideo.play().catch(() => {});
+        videoBackdrop.play().catch(() => {});
+      } else {
+        slideshowPaused = true;
+        mainVideo.pause();
+        videoBackdrop.pause();
+      }
+    });
+
+    /* SOUND CONTROL */
+    soundToggleButton.addEventListener("click", () => {
+      soundEnabled = !soundEnabled;
+
+      mainVideo.muted = !soundEnabled;
+      soundToggleButton.textContent = soundEnabled ? "🔊" : "🔇";
+
+      soundToggleButton.setAttribute(
+        "aria-label",
+        soundEnabled ? "Mute video" : "Enable sound"
+      );
+
+      if (soundEnabled && mainVideo.paused && !slideshowPaused) {
+        mainVideo.play().catch(() => {});
+      }
+    });
+
+    /* FULLSCREEN CONTROL */
+    fullscreenButton.addEventListener("click", async () => {
+      try {
+        if (!document.fullscreenElement) {
+          await videoStage.requestFullscreen();
+        } else {
+          await document.exitFullscreen();
+        }
+      } catch (error) {
+        console.warn("Fullscreen is unavailable in this browser.", error);
+      }
+    });
+
+    document.addEventListener("fullscreenchange", () => {
+      fullscreenButton.textContent =
+        document.fullscreenElement ? "×" : "⛶";
+    });
+
+    /* =========================================
+       TOUCH SWIPE + MOUSE DRAG
+       Swipe left = next video
+       Swipe right = previous video
+       ========================================= */
+
+    let gestureStartX = 0;
+    let gestureStartY = 0;
+    let mouseDragging = false;
+    let touchGesture = false;
+
+    const swipeThreshold = 55;
+
+    function finishSwipe(endX, endY) {
+      const deltaX = endX - gestureStartX;
+      const deltaY = endY - gestureStartY;
+
+      /* Ignore vertical movement and short taps/clicks */
+      if (
+        Math.abs(deltaX) >= swipeThreshold &&
+        Math.abs(deltaX) > Math.abs(deltaY) * 1.2
+      ) {
+        if (deltaX < 0) {
+          loadVideo(currentVideoIndex + 1);
+        } else {
+          loadVideo(currentVideoIndex - 1);
+        }
+      }
+    }
+
+    /* Touchscreen swipe */
+    videoStage.addEventListener("touchstart", event => {
+      if (event.touches.length !== 1) return;
+      if (event.target.closest("button")) return;
+
+      gestureStartX = event.touches[0].clientX;
+      gestureStartY = event.touches[0].clientY;
+      touchGesture = true;
+    }, { passive: true });
+
+    videoStage.addEventListener("touchend", event => {
+      if (!touchGesture || !event.changedTouches.length) return;
+
+      const touch = event.changedTouches[0];
+
+      finishSwipe(touch.clientX, touch.clientY);
+      touchGesture = false;
+    }, { passive: true });
+
+    videoStage.addEventListener("touchcancel", () => {
+      touchGesture = false;
+    }, { passive: true });
+
+    /* Mouse drag */
+    videoStage.addEventListener("mousedown", event => {
+      if (event.button !== 0) return;
+      if (event.target.closest("button")) return;
+
+      gestureStartX = event.clientX;
+      gestureStartY = event.clientY;
+      mouseDragging = true;
+
+      videoStage.classList.add("dragging");
+    });
+
+    window.addEventListener("mouseup", event => {
+      if (!mouseDragging) return;
+
+      finishSwipe(event.clientX, event.clientY);
+
+      mouseDragging = false;
+      videoStage.classList.remove("dragging");
+    });
+
+    window.addEventListener("blur", () => {
+      mouseDragging = false;
+      videoStage.classList.remove("dragging");
+    });
+
+    /* Load the first video */
+    loadVideo(0);
+
+    /* =========================================
+       MOBILE NAVIGATION
+       ========================================= */
+
+    const menuToggle = document.getElementById("menuToggle");
+    const navLinks = document.getElementById("navLinks");
+
+    menuToggle.addEventListener("click", () => {
+      const isOpen = navLinks.classList.toggle("open");
+
+      menuToggle.setAttribute("aria-expanded", String(isOpen));
+      menuToggle.textContent = isOpen ? "×" : "☰";
+    });
+
+    navLinks.querySelectorAll("a").forEach(link => {
+      link.addEventListener("click", () => {
+        navLinks.classList.remove("open");
+        menuToggle.setAttribute("aria-expanded", "false");
+        menuToggle.textContent = "☰";
+      });
+    });
+
+    /* =========================================
+       GALLERY FILTERS
+       ========================================= */
+
+    const filterButtons = document.querySelectorAll(".filter-button");
+    const galleryCards = document.querySelectorAll(".gallery-card");
+
+    filterButtons.forEach(button => {
+      button.addEventListener("click", () => {
+        const selectedFilter = button.dataset.filter;
+
+        filterButtons.forEach(item => {
+          item.classList.toggle("active", item === button);
+        });
+
+        galleryCards.forEach(card => {
+          const matches =
+            selectedFilter === "all" ||
+            card.dataset.category === selectedFilter;
+
+          card.classList.toggle("hidden", !matches);
+        });
+      });
+    });
+
+    /* =========================================
+       GALLERY LIGHTBOX
+       ========================================= */
+
+    const lightbox = document.getElementById("lightbox");
+    const lightboxImage = document.getElementById("lightboxImage");
+    const lightboxClose = document.getElementById("lightboxClose");
+
+    galleryCards.forEach(card => {
+      const image = card.querySelector("img");
+
+      image.addEventListener("click", () => {
+        lightboxImage.src = image.src;
+        lightboxImage.alt = image.alt;
+
+        lightbox.classList.add("open");
+        document.body.classList.add("no-scroll");
+
+        lightboxClose.focus();
+      });
+    });
+
+    function closeLightbox() {
+      lightbox.classList.remove("open");
+      document.body.classList.remove("no-scroll");
+      lightboxImage.src = "";
+    }
+
+    lightboxClose.addEventListener("click", closeLightbox);
+
+    lightbox.addEventListener("click", event => {
+      if (event.target === lightbox) {
+        closeLightbox();
+      }
+    });
+
+    document.addEventListener("keydown", event => {
+      if (event.key === "Escape") {
+        closeLightbox();
+      }
+
+      /* Keyboard navigation for videos */
+      if (event.key === "ArrowLeft") {
+        loadVideo(currentVideoIndex - 1);
+      }
+
+      if (event.key === "ArrowRight") {
+        loadVideo(currentVideoIndex + 1);
+      }
+    });
+
+    /* =========================================
+       FOOTER YEAR
+       ========================================= */
+
+    document.getElementById("copyrightYear").textContent =
+      new Date().getFullYear();
+  </script>
+</body>
+</html>
